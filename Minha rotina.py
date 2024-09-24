@@ -11,4 +11,29 @@ if not MANHA or not TARDE:
 else:
     if MANHA == "dormir" or TARDE == "jogar":
         print("Você está disperdiçando seu dia!")
-    elif  
+    elif MANHA =="estudar" or TARDE == "treinar":
+        print("Que bom! Você irá se aperfeiçoar!") 
+    elif MANHA =="planejar" and TARDE == "Trabalhar":
+        print("Para trabalhar melhor, devo planejar!")
+    else:
+        print("Não combinamos estas ações...")  
+
+print("Tenha um bom dia!")          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
